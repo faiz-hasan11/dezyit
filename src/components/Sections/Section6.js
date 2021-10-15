@@ -60,9 +60,9 @@ const Section6 = () => {
                 <div className="section6-about">
                     <h2>About</h2>
                     <div className="about-btn-container">
-                        <button className="sec6-btn bg-btn">Home</button>
-                        <button className="sec6-btn bg-btn">Our Product</button>
-                        <button className="sec6-btn bg-btn">Why Us?</button>
+                        <button className="sec6-btn bg-btn"><a href="#sec1" style={{textDecoration:'none',color:'inherit'}}>Home</a></button>
+                        <button className="sec6-btn bg-btn"><a href="#sec3" style={{textDecoration:'none',color:'inherit'}}>Our Product</a></button>
+                        <button className="sec6-btn bg-btn"><a href="#sec4" style={{textDecoration:'none',color:'inherit'}}>Why Us?</a></button>
                     </div>
                     <div className="section6-download">
                         <h3>Download Dezy It </h3>
