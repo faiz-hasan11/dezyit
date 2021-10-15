@@ -1,0 +1,142 @@
+.sec6-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  background-color: rgb(48, 43, 112);
+}
+.section6-row1 {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.section6-reach {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* width: 30%; */
+}
+.section6-reach > h2 {
+  color: white;
+  font-weight: 400;
+}
+.section6-reach > input {
+  /* width: 150%; */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 2% 5%;
+  font-size: 1rem;
+  color: white;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.section6-reach > input:focus {
+  outline: none;
+}
+.section6-reach > input::placeholder {
+  color: white;
+}
+.section6-reach > textarea {
+  /* width: 150%; */
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 2% 5%;
+  font-size: 1rem;
+  color: white;
+  font-weight: 200;
+  resize: none;
+  margin-top: 5px;
+}
+.section6-reach > textarea:focus {
+  outline: none;
+}
+.section6-reach > textarea::placeholder {
+  color: white;
+}
+.reach-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+.sec6-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 0% 7.5%;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+.sec6-btn:hover {
+  background-color: #787cd1;
+  border: 1px solid #787cd1;
+}
+.section6-about {
+  display: flex;
+  flex-direction: column;
+  /* width: 30%; */
+}
+.section6-about > h2 {
+  color: white;
+  font-weight: 400;
+}
+.about-btn-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.bg-btn {
+  width: 50%;
+  padding: 1% 2%;
+  margin-bottom: 10px;
+}
+.section6-download {
+  margin-top: 85px;
+}
+.section6-download > h3 {
+  color: white;
+}
+.section6-contact {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* width: 30%; */
+}
+.section6-contact > h2 {
+  color: white;
+  font-weight: 400;
+}
+.section6-contact > p {
+  color: white;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+.contact-social-con {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50%;
+  /* background-color: yellow; */
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .section6-row1 {
+    flex-direction: column;
+  }
+  .bg-btn {
+    width: 100%;
+  }
+  .sec6-img-con {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contact-social-con {
+    width: 100%;
+  }
+}
